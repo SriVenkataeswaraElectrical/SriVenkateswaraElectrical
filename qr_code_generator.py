@@ -1,6 +1,6 @@
 import qrcode
 
-link = "https://kirannadimpalli.github.io/product_images/main.html?image=image1.png"
+link = "https://SriVenkateswaraElectrical.github.io/product_images/main.html?image=image1.png"
 
 qr = qrcode.QRCode(
     version=1,
