@@ -1,6 +1,6 @@
 import qrcode
 
-link = "https://SriVenkateswaraElectrical.github.io/product_images/main.html?image=image1.png"
+link = "https://srivenkataeswaraelectrical.github.io/SriVenkateswaraElectrical/product_images/main.html?image=image1.png"
 
 qr = qrcode.QRCode(
     version=1,
@@ -16,3 +16,4 @@ img = qr.make_image(fill_color="black", back_color="white")
 img.save("qr_code.png")
 
 print("QR Code generated successfully.")
+
